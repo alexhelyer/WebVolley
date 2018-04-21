@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alejandro.webvolley.OrdenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orden:"/>
+
+            <TextView
+                android:id="@+id/ordenOrden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cliente:"/>
+
+            <TextView
+                android:id="@+id/ordenCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jugos:"/>
+
+            <TextView
+                android:id="@+id/ordenJugos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="J:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sucursal:"/>
+
+            <TextView
+                android:id="@+id/ordenSucursal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Repartidor:"/>
+
+            <TextView
+                android:id="@+id/ordenRepartidor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cobro:"/>
+
+            <TextView
+                android:id="@+id/ordenCobro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pago:"/>
+
+            <TextView
+                android:id="@+id/ordenPago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estatus:"/>
+
+            <TextView
+                android:id="@+id/ordenEstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E:"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="siguiente"/>
+
+</LinearLayout>

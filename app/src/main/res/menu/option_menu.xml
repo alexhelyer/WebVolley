@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_addCliente"
+        android:title="Agregar Cliente"/>
+
+    <item android:id="@+id/navigation_showSucursales"
+        android:title="Ver Sucursales"/>
+
+    <item android:id="@+id/navigation_showRepartidores"
+        android:title="Ver Repartidores"/>
+
+    <item android:id="@+id/navigation_setting"
+        android:title="Ajustar IP"/>
+
+</menu>
